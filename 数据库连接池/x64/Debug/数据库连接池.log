@@ -1,0 +1,15 @@
+﻿MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_num_fields，函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl MysqlConn::value(int)" (?value@MysqlConn@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_set_character_set，函数 "public: __cdecl MysqlConn::MysqlConn(void)" (??0MysqlConn@@QEAA@XZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_init，函数 "public: __cdecl MysqlConn::MysqlConn(void)" (??0MysqlConn@@QEAA@XZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_real_connect，函数 "public: bool __cdecl MysqlConn::connect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned short)" (?connect@MysqlConn@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@000G@Z) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_query，函数 "public: bool __cdecl MysqlConn::query(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?query@MysqlConn@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_store_result，函数 "public: bool __cdecl MysqlConn::query(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?query@MysqlConn@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_free_result，函数 "private: void __cdecl MysqlConn::freeResult(void)" (?freeResult@MysqlConn@@AEAAXXZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_fetch_row，函数 "public: bool __cdecl MysqlConn::next(void)" (?next@MysqlConn@@QEAA_NXZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_fetch_lengths，函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl MysqlConn::value(int)" (?value@MysqlConn@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_commit，函数 "public: bool __cdecl MysqlConn::commit(void)" (?commit@MysqlConn@@QEAA_NXZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_rollback，函数 "public: bool __cdecl MysqlConn::rollback(void)" (?rollback@MysqlConn@@QEAA_NXZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_autocommit，函数 "public: bool __cdecl MysqlConn::transaction(void)" (?transaction@MysqlConn@@QEAA_NXZ) 中引用了该符号
+MysqlConn.obj : error LNK2019: 无法解析的外部符号 mysql_close，函数 "public: __cdecl MysqlConn::~MysqlConn(void)" (??1MysqlConn@@QEAA@XZ) 中引用了该符号
+F:\Database System\mysql\lib\libmysql.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+E:\vs2019\c++项目\数据库连接池\x64\Debug\数据库连接池.exe : fatal error LNK1120: 13 个无法解析的外部命令
